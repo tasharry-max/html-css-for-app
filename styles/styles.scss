@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 10%;
+    background:#01134E;
+    align-items: center;
+   .logo {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 75px;
+   }
+   .icons {
+       div {
+           margin-bottom: 50px;
+       }
+       .calendar:nth-child(2) {
+        position: absolute;
+       }
+   }
+}
+
+main {
+    display: flex;
+    flex-basis: 90%;
+    flex-direction: column;
+    background: #F9FAFC;
+}
+
+.nav {
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #DAE4F2;
+}
