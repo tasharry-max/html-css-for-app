@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css" >
-<title>Title of the document</title>
+<title>Title</title>
 </head>
 
 <body>
@@ -14,21 +15,23 @@
         <div class="icons">
             <div class="calendar">
                 <img src="images/calendar.svg"/>
-                <!-- <img src="images/calendar_number.svg"/> -->
+                <span class="dot">1</span>
             </div>
             <div class="user">
                 <img src="images/user.svg"/>
             </div>
-            <div class="calendar">
+            <div class="settings">
                 <img src="images/settings.svg"/>
             </div>
             <div class="user">
                 <img src="images/meetings.svg"/>
             </div>
-            <div class="user">
+            <div class="messages">
                 <img src="images/messages.svg"/>
+            <hr>
             </div>
         </div> 
+        
     </div>
     <main>
         
@@ -45,29 +48,154 @@
         </div>
 
 
-        <div class="chat">
+        <div class="chat_window">
             <div class="dialogs">
                 <div class="dialog">
-                    1
+                    <div class="avatar">
+                        <img src="images/avatar_1.svg"/>
+                    </div>
+                    <div class="preview">
+                        <div class="preview_name">Miranda Hops
+                            <span class="dot"></span>
+                            <img src="images/nosound.svg">
+                        </div>
+                            
+                        <div class="preview_text">
+                            Excepteur sint occaecatar…
+                        </div>
+                        
+                    </div>
+                    <div class="time">
+                        9:20
+                    </div>
                 </div>
                 <div class="dialog">
-                    2
+                    <div class="avatar">
+                        <img src="images/avatar_1.svg"/>
+                    </div>
+                    <div class="preview">
+                        Barry Callebaut
+                        <div class="preview_text">
+                            Lorem ipsum dolor..
+                        </div>
+                        
+                    </div>
+                    <div class="time">
+                        9:20
+                    </div>
                 </div>
                 <div class="dialog">
-                    3
+                    <div class="avatar">
+                        <img src="images/avatar_3.svg"/>
+                    </div>
+                    <div class="preview">
+                        Stacey Dosh
+                        <span class="dot"></span>
+                        <div class="preview_text">
+                            Lorem ipsum dolor..
+                        </div>
+                        
+                    </div>
+                    <div class="time">
+                        9:20
+                    </div>
                 </div>
                 <div class="dialog">
-                    4
+                    <div class="avatar">
+                        <img src="images/avatar_4.svg"/>
+                    </div>
+                    <div class="preview">
+                        Michael Kors
+                        <div class="preview_text">
+                            Lorem ipsum dolor..
+                        </div>
+                        
+                    </div>
+                    <div class="time">
+                        9:20
+                    </div>
                 </div>
                 <div class="dialog">
-                    5
+                    <div class="avatar">
+                        <img src="images/avatar_5.svg"/>
+                    </div>
+                    <div class="preview">
+                        Johny Cash
+                        <span class="dot"></span>
+                        <div class="preview_text">
+                            Lorem ipsum dolor..
+                        </div>
+                        
+                    </div>
+                    <div class="time">
+                        9:20
+                    </div>
                 </div>
                 <div class="dialog">
-                    6
+                    <div class="avatar">
+                        <img src="images/avatar_6.svg"/>
+                    </div>
+                    <div class="preview">
+                        Stacey Dosh
+                        <div class="preview_text">
+                            Lorem ipsum dolor..
+                        </div>
+                        
+                    </div>
+                    <div class="time">
+                        9:20
+                    </div>
                 </div>
             </div>
             <div class="messages">
-                messages
+                <label class="search">
+                    <input class="search" type="text" placeholder="Search message..."/>
+                </label>
+                <div class="messages_scrolling">
+                    <section class="date">Today, 17.03.2018</section>
+                    <section>
+                        <div class="avatar">
+                            <img src="images/avatar_5.svg"/>
+                        </div>
+                        <div class="message">
+                            On the other hand, we denounce with righteous indignation! 
+                            <div class="time">
+                                1:14
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="message-response">
+                            Which is the same as saying?
+                            <div class="time">
+                                1:28
+                            </div>
+                    </div></section>
+                    <section><div class="avatar">
+                        <img src="images/avatar_5.svg"/>
+                    </div>
+                    <div class="message">
+                        But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures 
+                        <div class="time">
+                            1:30
+                        </div>
+                    </div></section>
+                    <section><div class="message-response">
+                        To take a trivial example, which of us ever undertakes)
+                        <div class="time">
+                            1:38
+                        </div>
+                    </div></section>
+                    
+                </div>
+                <label class="typing">
+                    <input class="typing" type="text" placeholder="Write message..."/>
+                    <div class="icons">
+                        <img src="images/emoji.svg" />
+                        <img src="images/files.svg" />
+                        <img src="images/send.svg" class="send"/>
+                    </div>
+                </label>
             </div>
         </div>
     </main>
